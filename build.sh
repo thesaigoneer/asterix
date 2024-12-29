@@ -21,18 +21,26 @@ LAYERED_PACKAGES=(
     konsole
 )
 dnf5 install -y "${LAYERED_PACKAGES[@]}"
+
 REMOVED_PACKAGES=(
-    ptyxis
-    kcharselect
-    kfind
     filelight
-    solaar
+    input-leap
     input-remapper
+    kcharselect
+    kdebugsettings
+    kde-connect
+    kde-connect-libs
+    kdeconnectd
+    kfind
+    kjournald
+    kwallet
     plasma-discover
     plasma-discover-rpm-ostree
     plasma-discover-notifier
     plasma-discover-flatpak
-    plasma-discover-offline-updates 
+    plasma-discover-offline-updates
+    ptyxis
+    solaar
 )
 dnf5 remove -y "${REMOVED_PACKAGES[@]}"
 # this would install a package from rpmfusion

@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 set -ouex pipefail
 
@@ -14,9 +14,19 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
-rpm-ostree install mc
-rpm-ostree install krusader
+# Layered Applications
+LAYERED_PACKAGES=(
+    mc
+    krusader
+    konsole
+)
+dnf5 install -y "${LAYERED_PACKAGES[@]}"
+REMOVED_PACKAGES=(
+    ptyxis
+    thunderbird
 
+)
+dnf5 remove -y "${REMOVED_PACKAGES[@]}"
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 

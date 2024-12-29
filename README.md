@@ -8,7 +8,7 @@ It is:
 -  only some minor adjustments have been made by me, notably:
 -    removing Ptyxis as the terminal;
 -    addition of Midnight Commander, Krusader and Konsole
--    removal of
+-    removal of ptyxis, kcharselect, kfind, filelight, solaar, input-remapper and plasma-discover
 
 # How to:
 -  Install any Fedora Atomic or Universal Blue image (I've used the Bluefin iso and Fedora Sway Atomic) and then:

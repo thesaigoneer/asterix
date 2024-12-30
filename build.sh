@@ -40,6 +40,7 @@ REMOVED_PACKAGES=(
     plasma-discover-flatpak
     plasma-discover-offline-updates
     ptyxis
+    skanpage
     solaar
 )
 dnf5 remove -y "${REMOVED_PACKAGES[@]}"

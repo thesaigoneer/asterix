@@ -1,16 +1,16 @@
 # Asterix
 
-# Purpose
+# Means to an End
 Asterix is my adaptation of Universal Blue Aurora.
 It is:
 -  based on the 'latest' branch of Aurora
 -  meant to stay as close as possible to the original image
 -  only some minor adjustments have been made by me, notably:
--    removing Ptyxis as the terminal;
 -    addition of midnight commander, krusader and konsole
--    removal of ptyxis, kcharselect, kfind, filelight, solaar, input-remapper and plasma-discover
+-    removal of ptyxis, kcharselect, kdeconnect, kfind, kwallet, filelight, skanpage, solaar, input-remapper and plasma-discover
 
-Of course all other applications need to be installed, either with flatpak, homebrew or distrobox. 
+Of course all other applications need to be installed, either with flatpak, homebrew or distrobox. The removed are 95% available as flatpak as well.
+
 I personally don't like software stores, so flatpaks need to be installed from the terminal as well.
 
 # How to:

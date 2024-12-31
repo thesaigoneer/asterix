@@ -34,11 +34,7 @@ REMOVED_PACKAGES=(
     kfind
     kjournald
     kwallet
-    plasma-discover
-    plasma-discover-rpm-ostree
-    plasma-discover-notifier
-    plasma-discover-flatpak
-    plasma-discover-offline-updates
+    kwalletmanager
     ptyxis
     skanpage
     solaar

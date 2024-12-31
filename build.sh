@@ -35,6 +35,7 @@ REMOVED_PACKAGES=(
     kjournald
     kwallet
     kwalletmanager
+    plasma-discover-notifier
     ptyxis
     skanpage
     solaar
